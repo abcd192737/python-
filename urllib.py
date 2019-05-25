@@ -5,7 +5,7 @@ Spyder Editor
 This is a temporary script file.
 """
 import urllib.request as ur #使用python內建urllib函式庫
-url='http://www.google.com'#使用Google來做測試
+url='http://10.0.2.12'#使用Google來做測試
 connection=ur.urlopen(url)#打開網頁
 print(connection)#印出蒐集到的資料
 mydata=connection.read()#讀取連接的資料並儲存於mydata
